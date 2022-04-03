@@ -1,0 +1,28 @@
+main: me.zheal.ZHeal
+version: 2.0
+author: Sandwicha
+name: zHeal
+commands:
+  zheal:
+    usage: /<command>
+    description: main command
+  heal:
+    usage: /<command> [target]
+    description: heal command
+  givehealth:
+    usage: /<command> <target> <hearts>
+    description: givehealth command
+    aliases: [healgive, healthgive]
+  sethealth:
+    usage: /<command> <target> <hearts>
+    description: sethealth command
+    aliases: [healthset, changehealth]
+  removehealth:
+    usage: /<command> <target> <hearts>
+    description: removehealth command
+    aliases: [delhealth, deletehealth, remhealth, minushealth]
+  setmaxhealth:
+    usage: /<command> <target> <hearts>
+    description: setmaxhealth command
+    aliases: [maxhealthset, changemaxhealth]
+  

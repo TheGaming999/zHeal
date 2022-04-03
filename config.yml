@@ -1,0 +1,24 @@
+Options:
+  heal-particles: true
+  heal-particles-name: HEART location=0,1,1|HEART location=0,1,-1|HEART location=1,1,0|HEART location=-1,1,0
+  heal-sound: true
+  heal-sound-name: BAT_HURT
+  heal-sound-volume: 1.0
+  heal-sound-pitch: 0.5
+  send-action-bar-messages: true
+  heal-cooldown: true
+  heal-cooldown-default-duration: 20
+  heal-cooldown-durations:
+  - zheal.cooldown.vip->15
+  - zheal.cooldown.mvp->10
+Permissions:
+  heal: "zheal.heal"
+  heal-other: "zheal.heal.other"
+  heal-all: "zheal.heal.all"
+  givehealth: "zheal.givehealth"
+  sethealth: "zheal.sethealth"
+  removehealth: "zheal.removehealth"
+  setmaxhealth: "zheal.setmaxhealth"
+  reload: "zheal.reload"
+  help: "zheal.help"
+  heal-cooldown-bypass: "zheal.heal.cooldown.bypass"
